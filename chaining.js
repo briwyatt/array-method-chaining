@@ -3,7 +3,7 @@ console.log("hello chaining array exercise");
 // Instructions: Using one single line of JavaScript code, complete the following tasks on the array of integers below.
 var integers = [13, 25, 6, 3, 11, 2, 18, 7, 21, 1, 29, 20, 12, 8];
 console.log("integers", integers);
-// sort in decending order (biggest # -> smallest #)      .sort(function(nums){return nums < 19}
+// sort in decending order (biggest # -> smallest #)      .sort(function(nums){return b-a}
 // remove integers greater than 19                        .filter()
 // multiply each [i] * 1.5 then subtract - 1              .map()
 // console.log("sumOfRemainingInts",sumOfRemainingInts);  .reduce()
