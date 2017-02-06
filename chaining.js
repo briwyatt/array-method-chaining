@@ -11,6 +11,6 @@ console.log("integers", integers);
 
 var printInts = integers.sort(function(a, b) { return b - a}).filter(function(nums){return nums < 19}).map(function(nums){return nums = (nums * 1.5) -1}).reduce(function(prev, curr) {return prev + curr})
 
-
+var output = document.getElementById("output-target");
+output.innerHTML = printInts;
 console.log("printInts",printInts);
-
